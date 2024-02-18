@@ -12,22 +12,23 @@ This repository is created to implement and test Gang of Four (GOF) Design Patte
 
 ## Applications
 
-- **OOP**
+- **Classic OOP**
   - Description: Root logic example for object orianted programing.
   - File: clasic_oop
  
    ![simple design logic](clasic_oop/logic.png)
    simple design logic for example
-
-   ![console out](clasic_oop/console_out.png)
-   examples console out
-
  
-
 - **Visitor Pattern**
   - Description: A C++ application implementing and testing the Visitor design pattern. The Visitor pattern allows adding new operations to existing object structures without modifying those structures. It is useful when a set of operations is defined on an object structure, but it is necessary to perform these operations in various ways and on different classes of objects.
-  - File: variant_visitor_pattern / cyclic_visitor_pattern
+  - File: variant_visitor_pattern / cyclic_visitor_pattern (acyclic active too) or variant_visitor_pattern
+
+ ![simple design logic](cyclic_visitor_pattern/logic.png)
+cyclic_visitor_pattern conceptual design
  
+ ![console out](cyclic_visitor_pattern/console_out.png)
+ console out
+
 - **Singleton Pattern**
   - Description: A C++ application implementing and testing the Singleton design pattern.
   - File: [TODO]
