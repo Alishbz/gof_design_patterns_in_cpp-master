@@ -25,10 +25,20 @@ This repository is created to implement and test Gang of Four (GOF) Design Patte
 
  ![simple design logic](cyclic_visitor_pattern/logic.png)
 cyclic_visitor_pattern conceptual design
- 
+  
  ![console out](cyclic_visitor_pattern/console_out.png)
  console out
 
+- **Command Pattern**
+  - Description: The Command Pattern is a behavioral design pattern that encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations. It allows the parameterization of clients with queues, requests, and operations. In this pattern, requests are wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
+  - File: command_pattern
+
+   ![simple design logic](command_pattern/logic.png)
+command_pattern conceptual design
+  
+ ![console out](command_pattern/out.png)
+ console out
+ 
 - **Singleton Pattern**
   - Description: A C++ application implementing and testing the Singleton design pattern.
   - File: [TODO]
