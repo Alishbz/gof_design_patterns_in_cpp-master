@@ -2,6 +2,8 @@
 
 This repository is created to implement and test Gang of Four (GOF) Design Patterns learned by reading the book "Design Patterns: Elements of Reusable Object-Oriented Software". These design patterns are general solutions to common problems encountered in software development.
 
+![gof](book/book.png)
+
 ## Technologies Used
 
 - Language: C++ 20
